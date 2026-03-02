@@ -4,7 +4,7 @@ export default function HomePage() {
       <h1 className="text-5xl md:text-6xl font-extrabold mb-6 text-gray-900 dark:text-white">
         Welcome to my game reviews
       </h1>
-      <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-8 max-w-2xl">
+      <p className="text-lg md:text-xl  dark:text-gray-300 mb-8 max-w-2xl">
         Here are games I recommend
       </p>
       <a

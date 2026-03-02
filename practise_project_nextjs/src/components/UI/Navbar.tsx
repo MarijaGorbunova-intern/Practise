@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-center items-center h-16">
           <Link href="/" className="text-white no-underline hover:text-blue-200 transition mx-4">
-            Home
+            Home  
           </Link>
           <Link href="/games" className="text-white no-underline hover:text-blue-200 transition mx-4">
             Games

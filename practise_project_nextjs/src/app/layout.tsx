@@ -8,9 +8,9 @@ type LayoutPr = {
 export default function RootLayout({ children }: LayoutPr) {
   return (
    <html suppressHydrationWarning>
-      <body>
-        <Navbar /> 
-        <main className="flex-1 max-w-6xl min-h-[85vh] px-4 py-8">      
+      <body className="flex flex-col min-h-screen bg-gray-900 text-amber-50">
+        <Navbar/> 
+        <main className="max-w-6xl px-4 py-8 mx-auto">      
           {children}
         </main>
         <Footer/>
