@@ -10,7 +10,7 @@ export default function RootLayout({ children }: LayoutPr) {
    <html suppressHydrationWarning>
       <body>
         <Navbar /> 
-        <main className="flex-1 max-w-6xl mx-auto px-4 py-8">
+        <main className="flex-1 max-w-6xl min-h-[85vh] px-4 py-8">      
           {children}
         </main>
         <Footer/>

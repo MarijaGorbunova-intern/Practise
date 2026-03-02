@@ -10,7 +10,7 @@ export default function HomePage() {
       <a
         href="/games"
         className="px-8 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition">
-        GamesS
+        Games
       </a>
     </div>
   )
