@@ -1,6 +1,7 @@
 import "../app/global.css" 
 import Navbar from "../components/UI/Navbar"
 import Footer from "../components/UI/Footer"
+import PageWrapper from "../components/animation/PageWrapper"
 type LayoutPr = {
     children: React.ReactNode
 }
@@ -8,10 +9,12 @@ type LayoutPr = {
 export default function RootLayout({ children }: LayoutPr) {
   return (
    <html suppressHydrationWarning>
-      <body className="flex flex-col min-h-screen bg-gray-900 text-amber-50">
+      <body className="flex flex-col min-h-screen bg-cover bg-center bg-no-repeat text-amber-50" >
         <Navbar/> 
-        <main className="max-w-6xl px-4 py-8 mx-auto">      
+        <main className="max-w-6xl px-4 py-8 mx-auto">    
+          <PageWrapper>  
           {children}
+          </PageWrapper>
         </main>
         <Footer/>
       </body>

@@ -1,10 +1,11 @@
 import { ObjectId } from "mongodb"
 
-export type Game = {
+export interface Game {
   _id: ObjectId
   title: string
   genre: string
   releaseYear: number
   rating: number
   img: string
+  description:string
 }
