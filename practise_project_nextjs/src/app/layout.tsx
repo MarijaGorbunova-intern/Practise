@@ -15,7 +15,7 @@ export default function RootLayout({ children }: LayoutPr) {
           <PageWrapper>  
           {children}
           </PageWrapper>
-        </main>
+        </main> 
         <Footer/>
       </body>
     </html>
