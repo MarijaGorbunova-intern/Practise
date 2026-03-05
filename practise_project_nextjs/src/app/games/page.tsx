@@ -1,7 +1,8 @@
 import clientPromise from "../../lib/mongo"
 import GameCard from "./Games_Components/GameCard"
 import { Game } from "./Games_Components/GameType"
-
+import ClassicButton from "../../components/UI/buttons/ClassicButton"
+ 
 type Props = {
   searchParams: Promise<{ search?: string }>
 }
@@ -31,11 +32,7 @@ export default async function GamesPage({ searchParams }: Props) {
           placeholder="Search games..."
           defaultValue={search}
           className="w-full max-w-md px-4 py-2 rounded-lg bg-black/60 text-amber-50 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-green-500"/>
-        <button
-          type="submit"
-          className="px-4 py-2 bg-green-700 text-white rounded-lg hover:bg-green-500 transition">
-          Search
-        </button>
+        <ClassicButton type="submit">Search</ClassicButton>
       </form>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {games.map((game) => (

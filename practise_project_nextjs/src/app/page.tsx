@@ -8,7 +8,7 @@ export default function HomePage() {
       style={{
         backgroundImage: "url('/background_image.jpg')",
         backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundPosition: "center", 
       }}>
 
       <div className="absolute inset-0 bg-black/50" />

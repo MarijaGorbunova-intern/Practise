@@ -12,8 +12,8 @@ export default function Navbar() {
           <Link href="/games" className="text-white no-underline hover:text-blue-200 transition mx-4">
             Games
           </Link>
-          <Link href="/about" className="text-white no-underline hover:text-blue-200 transition mx-4">
-            About
+          <Link href="/recommend-game" className="text-white no-underline hover:text-blue-200 transition mx-4">
+            Recommend Game
           </Link>
         </div>
       </div>
