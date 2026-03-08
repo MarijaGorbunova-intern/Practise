@@ -27,7 +27,7 @@ export default function RandomCard() {
   if (!game) {
     return (
       <div className="bg-black/50 rounded-xl p-4 text-center">
-        <p className="text-gray-400">Lo</p>
+        <p className="text-gray-400">Loading</p>
       </div>
     );
   }
